@@ -15,6 +15,6 @@ https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
 Dig the in-depth information of the dataset, figure out the relationship within and between cryptocurrency. After that, Use LSTM to predict the future price of BitCoin and Etherum
 
 #### Repository Introduction
-    --cryptocurrencypricehistory: all datasets
-    --LSTMPrediction.py: python file for the LSTM prediction
-    
+    -cryptocurrencypricehistory: all datasets
+    -LSTMPrediction.py: python file for the LSTM prediction
+    -ethereum_price.csv / bitcoin_price.csv: dataset used for prediction
