@@ -164,11 +164,11 @@ def visualization_result(bitcoin_history,split_date,window_len,bitcoin_model,
 def main():
     # import data
     color = sns.color_palette()
-    cash_price = pd.read_csv("~/PycharmProjects/542project/bitcoin_price.csv", parse_dates=['Date'])
+    cash_price = pd.read_csv("bitcoin_price.csv", parse_dates=['Date'])
     cash_price.head()
     cash_price[cash_price["Date"]>='2013-12-27']['Volume'] = cash_price[cash_price["Date"]>='2013-12-27']["Volume"].astype('float')
 
-    cash_price_eth = pd.read_csv("~/PycharmProjects/542project/ethereum_price.csv", parse_dates=['Date'])
+    cash_price_eth = pd.read_csv("ethereum_price.csv", parse_dates=['Date'])
     cash_price_eth.head()
     cash_price_eth['Volume'] = cash_price_eth["Volume"].astype('float')
 
