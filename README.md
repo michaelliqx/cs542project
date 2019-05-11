@@ -19,7 +19,7 @@ Dig the in-depth information of the dataset, figure out the relationship within 
     -LSTMPrediction.py: python file for the LSTM prediction
     -ethereum_price.csv / bitcoin_price.csv: dataset used for prediction
     -processMarketCap.py: process the cryptocurrency market capacity
-    -correlation.py / correlation.R: generate correaltion map
+    -correlation.py / correlation.R: generate correaltion map. could run directly in Kaggle
 
 ### Prediction
 Programming language: Python
