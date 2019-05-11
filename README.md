@@ -18,7 +18,7 @@ Dig the in-depth information of the dataset, figure out the relationship within 
     -cryptocurrencypricehistory: all datasets
     -LSTMPrediction.py: python file for the LSTM prediction
     -ethereum_price.csv / bitcoin_price.csv: dataset used for prediction
-
+    -processMarketCap.py: process the cryptocurrency market capacity
 
 ### Prediction
 Programming language: Python
