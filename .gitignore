@@ -1,3 +1,4 @@
 #lib and packages
 /venv
 
+*.zip
